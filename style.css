@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background: #161E29;
+    padding: 50px;
+}
+
+.component--followers {
+    background: #1B2431;
+    border-radius: 10px;
+    padding: 30px;
+    width: 512px;
+    margin-bottom: 50px;
+}
+
+.component--followers ul {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.component--followers ul li {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.component--followers ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #161E29;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.component--followers ul li a i {
+    margin-right: 20px;
+}
+
+.component--user-info {
+    background: #1B2431;
+    border-radius: 10px;
+    padding: 40px;
+    width: 344px;
+    margin-bottom: 50px;
+}
+
+.component--user-info ul li {
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.component--user-info ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.component--user-info ul li i  {
+    width: 30px;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 25px;
+}
+
+.component--user-info ul li a {
+    color: #176ee9;
+}
+
+.component--team {
+    background: #1B2431;
+    border-radius: 10px;
+    padding: 40px 40px 50px;
+    width: 503px;
+    margin-bottom: 50px;
+}
+
+.component--team h5 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.team i {
+    color: #176ee9;
+    font-size: 16px;
+}
+
+.team span {
+    font-size: 22px;
+    color: #176ee9;
+    margin: 10px;
+}
+
+.component--skills {
+    width: 434px;
+}
+
+.component--skills h5 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.component--skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+.component--skills li {
+    margin: 5px;
+}
+
+.component--skills li a {
+    display: block;
+    padding: 15px 25px;
+    background: #1B2431;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.component--skills li a:hover {
+    background: #176ee9;
+}
